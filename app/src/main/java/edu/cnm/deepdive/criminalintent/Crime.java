@@ -1,8 +1,10 @@
 package edu.cnm.deepdive.criminalintent;
 
+
 import java.util.Date;
 import java.util.UUID;
 
+// A model class
 public class Crime {
 
   private UUID id;

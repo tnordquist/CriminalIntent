@@ -14,6 +14,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class CrimeFragment extends Fragment {
 
@@ -21,6 +22,7 @@ public class CrimeFragment extends Fragment {
   private EditText titleField;
   private Button dateButton;
   private CheckBox solvedCheckBox;
+//  TextView.setText(R.string.some_string);
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
